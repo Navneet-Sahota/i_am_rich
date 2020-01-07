@@ -13,8 +13,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
